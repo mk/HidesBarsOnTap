@@ -4,9 +4,9 @@ Example project trying to illustrate the inability to show and hide the status b
 
 The relevant code snipplet is:
 
-```
+```objective-c
 @implementation ViewController
-            
+
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	self.navigationController.hidesBarsOnTap = YES;
